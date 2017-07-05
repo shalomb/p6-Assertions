@@ -43,3 +43,6 @@ inc/
 *.svn
 *.sw*
 *.tmp*
+
+lib/.precomp/*
+.prove
