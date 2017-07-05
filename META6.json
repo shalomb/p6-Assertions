@@ -1,0 +1,20 @@
+{
+  "perl" : "6",
+  "name" : "Assertions",
+  "description" : "Runtime assertions for Perl 6",
+  "version" : "0.0.1",
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "authors" : [
+      "github:shalomb"
+  ],
+  "provides" : {
+    "Assertions" : "lib/Assertions.pm"
+  },
+  "source-url" : "git://github.com/shalomb/p6-assertions.git",
+  "support" : {
+    "source" : "git://github.com/shalomb/p6-assertions.git"
+  }
+}
