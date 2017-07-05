@@ -1,10 +1,5 @@
 #!/usr/bin/env perl6
 
-
-# TODO
-# Support DEBUG and NDEBUG
-# Support Smart Comments
-
 use v6;
 
 unit module Assertions;
