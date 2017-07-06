@@ -36,6 +36,13 @@ and log failure messages to STDERR instead, use the `:non-fatal` flag.
     with $x { do something(); }               # control resumes here
     … 
 
+In fact, `:non-fatal` may be needed when the test expression or block itself may
+throw an (inadvertent) exception.
+
+    assert { die  "See you later, I'm out …" },  # :non-fatal handles exceptions in this block
+           { note "But wait, I live again …" },  # so that this block is called
+           :non-fatal
+
 # DESCRIPTION
 
 `Assertions` provides an assertion mechanism for Perl 6 in the style of 
