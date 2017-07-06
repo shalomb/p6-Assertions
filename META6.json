@@ -13,8 +13,8 @@
   "provides" : {
     "Assertions" : "lib/Assertions.pm"
   },
-  "source-url" : "git://github.com/shalomb/p6-assertions.git",
+  "source-url" : "git://github.com/shalomb/p6-Assertions.git",
   "support" : {
-    "source" : "git://github.com/shalomb/p6-assertions.git"
+    "source" :   "git://github.com/shalomb/p6-Assertions.git"
   }
 }
